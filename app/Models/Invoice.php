@@ -9,4 +9,9 @@ class Invoice extends Model
 {
     /** @use HasFactory<\Database\Factories\InvoiceFactory> */
     use HasFactory;
+
+    public function costumer()
+    {
+        return $this->belongsTo(Costumer::class);
+    }
 }

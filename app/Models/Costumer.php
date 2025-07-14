@@ -9,4 +9,8 @@ class Costumer extends Model
 {
     /** @use HasFactory<\Database\Factories\CostumerFactory> */
     use HasFactory;
+
+    public function invoices(){
+        return $this->hasMany(Invoice::class);
+    }
 }
