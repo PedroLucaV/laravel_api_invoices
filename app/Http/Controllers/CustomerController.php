@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\V1;
 
-use App\Models\Costumer;
+use App\Models\Customer;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreCostumerRequest;
 use App\Http\Requests\UpdateCostumerRequest;
 
-class CostumerController extends Controller
+class CustomerController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -36,7 +36,7 @@ class CostumerController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Costumer $costumer)
+    public function show(Customer $customer)
     {
         //
     }
@@ -44,7 +44,7 @@ class CostumerController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Costumer $costumer)
+    public function edit(Customer $customer)
     {
         //
     }
@@ -52,7 +52,7 @@ class CostumerController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateCostumerRequest $request, Costumer $costumer)
+    public function update(UpdateCostumerRequest $request, Customer $customer)
     {
         //
     }
@@ -60,7 +60,7 @@ class CostumerController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Costumer $costumer)
+    public function destroy(Customer $customer)
     {
         //
     }
