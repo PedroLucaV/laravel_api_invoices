@@ -6,6 +6,7 @@ use App\Models\Invoice;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreInvoiceRequest;
 use App\Http\Requests\UpdateInvoiceRequest;
+use App\Models\Customer;
 
 class InvoiceController extends Controller
 {
@@ -14,7 +15,7 @@ class InvoiceController extends Controller
      */
     public function index()
     {
-        //
+        
     }
 
     /**
